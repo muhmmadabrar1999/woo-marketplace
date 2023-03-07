@@ -1,0 +1,10 @@
+{
+    "id": "Woo/cookie-consent",
+    "name": "Cookie Consent",
+    "namespace": "Woo\\CookieConsent\\",
+    "provider": "Woo\\CookieConsent\\Providers\\CookieConsentServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Cookie Consent"
+}

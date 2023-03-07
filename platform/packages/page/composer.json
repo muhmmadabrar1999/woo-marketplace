@@ -1,0 +1,21 @@
+{
+    "name": "Woo/page",
+    "description": "Page package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Woo\\Page\\": "src"
+        }
+    },
+    "require": {
+        "Woo/platform": "*@dev",
+        "Woo/revision": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Woo\\Page\\Providers\\PageServiceProvider"
+            ]
+        }
+    }
+}

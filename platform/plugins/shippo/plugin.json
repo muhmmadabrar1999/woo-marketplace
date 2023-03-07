@@ -1,0 +1,10 @@
+{
+    "id": "Woo/shippo",
+    "name": "Shippo",
+    "namespace": "Woo\\Shippo\\",
+    "provider": "Woo\\Shippo\\Providers\\ShippoServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.0.0",
+    "description": "Multi-Carrier Shippo Shipping Rates & Address Validation for Ecommerce"
+}

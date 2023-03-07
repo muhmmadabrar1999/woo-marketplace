@@ -1,0 +1,8 @@
+{
+  "name": "Woo/captcha",
+  "description": "Captcha for higher security",
+  "homepage": "https://Woo.com",
+  "require": {
+    "google/recaptcha": "^1.2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "id": "Woo/newsletter",
+    "name": "Newsletter",
+    "namespace": "Woo\\Newsletter\\",
+    "provider": "Woo\\Newsletter\\Providers\\NewsletterServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Newsletter"
+}

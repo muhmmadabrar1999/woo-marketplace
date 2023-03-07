@@ -1,0 +1,7 @@
+{
+    "name": "WooMarketplace",
+    "namespace": "Theme\\WooMarketplace\\",
+    "description": "WooMarketplace - Laravel Ecommerce System",
+    "author": "Woo Technologies",
+    "required_plugins": []
+}

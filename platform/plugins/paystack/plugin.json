@@ -1,0 +1,11 @@
+{
+    "id": "Woo/paystack",
+    "name": "Paystack Payment Gateway",
+    "namespace": "Woo\\Paystack\\",
+    "provider": "Woo\\Paystack\\Providers\\PaystackServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.0",
+    "description": "Paystack payment gateway integration",
+    "require": ["payment"]
+}

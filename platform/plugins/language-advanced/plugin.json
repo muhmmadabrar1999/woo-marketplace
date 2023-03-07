@@ -1,0 +1,11 @@
+{
+    "id": "Woo/language-advanced",
+    "name": "Language Advanced",
+    "namespace": "Woo\\LanguageAdvanced\\",
+    "provider": "Woo\\LanguageAdvanced\\Providers\\LanguageAdvancedServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.2.0",
+    "description": "Advanced Multi-language",
+    "require": ["language"]
+}

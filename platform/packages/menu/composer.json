@@ -1,0 +1,24 @@
+{
+    "name": "Woo/menu",
+    "description": "Menu package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Woo\\Menu\\": "src"
+        }
+    },
+    "require": {
+        "Woo/platform": "*@dev",
+        "Woo/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Woo\\Menu\\Providers\\MenuServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "Woo\\Menu\\Facades\\MenuFacade"
+            }
+        }
+    }
+}

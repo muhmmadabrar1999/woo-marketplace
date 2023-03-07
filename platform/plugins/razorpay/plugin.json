@@ -1,0 +1,11 @@
+{
+    "id": "Woo/razorpay",
+    "name": "Razorpay Payment Gateway",
+    "namespace": "Woo\\Razorpay\\",
+    "provider": "Woo\\Razorpay\\Providers\\RazorpayServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.0",
+    "description": "Razorpay payment gateway integration",
+    "require": ["payment"]
+}

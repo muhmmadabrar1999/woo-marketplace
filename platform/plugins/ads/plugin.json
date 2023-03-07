@@ -1,0 +1,9 @@
+{
+    "name": "Ads",
+    "namespace": "Woo\\Ads\\",
+    "provider": "Woo\\Ads\\Providers\\AdsServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.0",
+    "description": "Ads manager for Woo CMS"
+}

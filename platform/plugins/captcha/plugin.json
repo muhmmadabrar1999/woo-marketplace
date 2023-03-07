@@ -1,0 +1,10 @@
+{
+    "id": "Woo/captcha",
+    "name": "Captcha",
+    "namespace": "Woo\\Captcha\\",
+    "provider": "Woo\\Captcha\\Providers\\CaptchaServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Captcha for higher security"
+}

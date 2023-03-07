@@ -1,0 +1,10 @@
+{
+    "id": "Woo/contact",
+    "name": "Contact Form",
+    "namespace": "Woo\\Contact\\",
+    "provider": "Woo\\Contact\\Providers\\ContactServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Contact Form"
+}

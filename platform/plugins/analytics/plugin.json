@@ -1,0 +1,10 @@
+{
+    "id": "Woo/analytics",
+    "name": "Analytics",
+    "namespace": "Woo\\Analytics\\",
+    "provider": "Woo\\Analytics\\Providers\\AnalyticsServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Tracking data from Google Analytics"
+}

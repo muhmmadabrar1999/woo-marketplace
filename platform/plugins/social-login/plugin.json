@@ -1,0 +1,10 @@
+{
+    "id": "Woo/social-login",
+    "name": "Social Login",
+    "namespace": "Woo\\SocialLogin\\",
+    "provider": "Woo\\SocialLogin\\Providers\\SocialLoginServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Easier and faster login with Facebook, LinkedIn, Github or Google."
+}

@@ -1,0 +1,11 @@
+{
+    "id": "Woo/paypal",
+    "name": "PayPal Payment Gateway",
+    "namespace": "Woo\\Paypal\\",
+    "provider": "Woo\\Paypal\\Providers\\PaypalServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.0",
+    "description": "Paypal payment gateway integration",
+    "require": ["payment"]
+}

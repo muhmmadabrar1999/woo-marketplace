@@ -1,0 +1,10 @@
+{
+    "id": "Woo/language",
+    "name": "Language",
+    "namespace": "Woo\\Language\\",
+    "provider": "Woo\\Language\\Providers\\LanguageServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.2.0",
+    "description": "Multi-language features."
+}

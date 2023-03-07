@@ -1,0 +1,20 @@
+{
+    "name": "Woo/revision",
+    "description": "Revision package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Woo\\Revision\\": "src"
+        }
+    },
+    "require": {
+        "Woo/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Woo\\Revision\\Providers\\RevisionServiceProvider"
+            ]
+        }
+    }
+}

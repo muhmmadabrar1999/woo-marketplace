@@ -1,0 +1,25 @@
+{
+    "name": "Woo/widget",
+    "description": "Widget package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Woo\\Widget\\": "src"
+        }
+    },
+    "require": {
+        "Woo/platform": "*@dev",
+        "Woo/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Woo\\Widget\\Providers\\WidgetServiceProvider"
+            ],
+            "aliases": {
+                "Widget": "Woo\\Widget\\Facades\\WidgetFacade",
+                "WidgetGroup": "Woo\\Widget\\Facades\\WidgetGroupFacade"
+            }
+        }
+    }
+}

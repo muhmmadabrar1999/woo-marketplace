@@ -1,0 +1,10 @@
+{
+    "id": "Woo/audit-log",
+    "name": "Audit Log",
+    "namespace": "Woo\\AuditLog\\",
+    "provider": "Woo\\AuditLog\\Providers\\AuditLogServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Record activities logs"
+}

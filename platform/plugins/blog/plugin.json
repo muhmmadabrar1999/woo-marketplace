@@ -1,0 +1,10 @@
+{
+    "id": "Woo/blog",
+    "name": "Blog",
+    "namespace": "Woo\\Blog\\",
+    "provider": "Woo\\Blog\\Providers\\BlogServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Manage posts, categories, tags"
+}

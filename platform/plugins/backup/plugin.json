@@ -1,0 +1,10 @@
+{
+    "id": "Woo/backup",
+    "name": "Backup",
+    "namespace": "Woo\\Backup\\",
+    "provider": "Woo\\Backup\\Providers\\BackupServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Backup & restore database, uploads folder"
+}

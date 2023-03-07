@@ -1,0 +1,10 @@
+{
+    "id": "Woo/translation",
+    "name": "Translation",
+    "namespace": "Woo\\Translation\\",
+    "provider": "Woo\\Translation\\Providers\\TranslationServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "Manage translation text"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Marketplace",
+    "namespace": "Woo\\Marketplace\\",
+    "provider": "Woo\\Marketplace\\Providers\\MarketplaceServiceProvider",
+    "author": "Woo technologies",
+    "url": "https://Woo.com",
+    "version": "2.0.0",
+    "description": "Marketplace plugin for Ecommerce site"
+}

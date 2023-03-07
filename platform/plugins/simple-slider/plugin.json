@@ -1,0 +1,10 @@
+{
+    "id": "Woo/simple-slider",
+    "name": "Simple Slider",
+    "namespace": "Woo\\SimpleSlider\\",
+    "provider": "Woo\\SimpleSlider\\Providers\\SimpleSliderServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "2.0",
+    "description": "A plugin to create sliders"
+}

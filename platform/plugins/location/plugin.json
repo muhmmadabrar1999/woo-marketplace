@@ -1,0 +1,10 @@
+{
+    "id": "Woo/location",
+    "name": "Location",
+    "namespace": "Woo\\Location\\",
+    "provider": "Woo\\Location\\Providers\\LocationServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.1",
+    "description": "The description for module location"
+}

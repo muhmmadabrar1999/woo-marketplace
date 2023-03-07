@@ -1,0 +1,11 @@
+{
+    "id": "Woo/sslcommerz",
+    "name": "SslCommerz Payment Gateway",
+    "namespace": "Woo\\SslCommerz\\",
+    "provider": "Woo\\SslCommerz\\Providers\\SslCommerzServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.0",
+    "description": "SslCommerz payment gateway integration",
+    "require": ["payment"]
+}

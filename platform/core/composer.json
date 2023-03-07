@@ -1,0 +1,88 @@
+{
+    "name": "Woo/platform",
+    "description": "The Woo Platform based on Laravel Framework.",
+    "keywords": [
+        "Woo",
+        "Woo cms",
+        "Woo platform"
+    ],
+    "homepage": "https://Woo.com",
+    "support": {
+        "issues": "https://Woo.ticksy.com",
+        "document": "https://docs.Woo.com"
+    },
+    "authors": [
+        {
+            "name": "Woo Technologies",
+            "email": "contact@Woo.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "barryvdh/laravel-dompdf": "^2.0",
+        "Woo/assets": "^1.0",
+        "intervention/image": "^2.6",
+        "kris/laravel-form-builder": "dev-master",
+        "laravelcollective/html": "^6.2",
+        "xantios/mimey": "^2.2",
+        "tightenco/ziggy": "^1.4",
+        "yajra/laravel-datatables-buttons": "^9.1",
+        "yajra/laravel-datatables-oracle": "^10.2",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
+        "mews/purifier": "^3.3",
+        "maatwebsite/excel": "^3.1",
+        "symfony/http-client": "^6.0",
+        "symfony/postmark-mailer": "^6.0",
+        "symfony/mailgun-mailer": "^6.0",
+        "twig/twig": "^3.0",
+        "doctrine/dbal": "^3.2",
+        "league/flysystem-aws-s3-v3": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Woo\\Support\\": "support/src",
+            "Woo\\ACL\\": "acl/src",
+            "Woo\\Base\\": "base/src",
+            "Woo\\Base\\Tests\\": "base/tests",
+            "Woo\\Dashboard\\": "dashboard/src",
+            "Woo\\Media\\": "media/src",
+            "Woo\\Setting\\": "setting/src",
+            "Woo\\Table\\": "table/src",
+            "Woo\\JsValidation\\": "js-validation/src",
+            "Woo\\Chart\\": "chart/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Woo\\Base\\Providers\\BaseServiceProvider",
+                "Woo\\Base\\Providers\\CommandServiceProvider",
+                "Woo\\Base\\Providers\\EventServiceProvider",
+                "Woo\\Base\\Providers\\BreadcrumbsServiceProvider",
+                "Woo\\Base\\Providers\\ComposerServiceProvider",
+                "Woo\\Base\\Providers\\MailConfigServiceProvider",
+                "Woo\\Base\\Providers\\FormServiceProvider",
+                "Woo\\Support\\Providers\\SupportServiceProvider",
+                "Woo\\Table\\Providers\\TableServiceProvider",
+                "Woo\\ACL\\Providers\\AclServiceProvider",
+                "Woo\\Dashboard\\Providers\\DashboardServiceProvider",
+                "Woo\\Media\\Providers\\MediaServiceProvider",
+                "Woo\\JsValidation\\Providers\\JsValidationServiceProvider",
+                "Woo\\Chart\\Providers\\ChartServiceProvider"
+            ],
+            "aliases": {
+                "Assets": "Woo\\Base\\Facades\\AssetsFacade",
+                "BaseHelper": "Woo\\Base\\Facades\\BaseHelperFacade",
+                "MetaBox": "Woo\\Base\\Facades\\MetaBoxFacade",
+                "Action": "Woo\\Base\\Facades\\ActionFacade",
+                "Filter": "Woo\\Base\\Facades\\FilterFacade",
+                "EmailHandler": "Woo\\Base\\Facades\\EmailHandlerFacade",
+                "Breadcrumbs": "Woo\\Base\\Facades\\BreadcrumbsFacade",
+                "MacroableModels": "Woo\\Base\\Facades\\MacroableModelsFacade",
+                "JsValidator": "Woo\\JsValidation\\Facades\\JsValidatorFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

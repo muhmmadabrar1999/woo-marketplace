@@ -1,0 +1,11 @@
+{
+    "id": "Woo/mollie",
+    "name": "Mollie Payment Gateway",
+    "namespace": "Woo\\Mollie\\",
+    "provider": "Woo\\Mollie\\Providers\\MollieServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.0",
+    "description": "Mollie payment gateway integration",
+    "require": ["payment"]
+}

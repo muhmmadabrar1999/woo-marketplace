@@ -1,0 +1,11 @@
+{
+    "id": "Woo/stripe",
+    "name": "Stripe Payment Gateway",
+    "namespace": "Woo\\Stripe\\",
+    "provider": "Woo\\Stripe\\Providers\\StripeServiceProvider",
+    "author": "Woo Technologies",
+    "url": "https://Woo.com",
+    "version": "1.0",
+    "description": "Stripe payment gateway integration",
+    "require": ["payment"]
+}

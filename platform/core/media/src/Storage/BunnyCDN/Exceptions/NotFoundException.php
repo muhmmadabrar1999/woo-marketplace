@@ -1,0 +1,7 @@
+<?php
+
+namespace Woo\Media\Storage\BunnyCDN\Exceptions;
+
+class NotFoundException extends BunnyCDNException
+{
+}
